@@ -1,0 +1,5 @@
+{
+  "id": "001",
+  "title": "Booking requests expire at the wrong time after 10 PM",
+  "body": "A booking request created late at night can receive a 09:00 deadline that occurs before the request was created. The deadline must always be in the future."
+}

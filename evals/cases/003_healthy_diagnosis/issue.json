@@ -1,0 +1,5 @@
+{
+  "id": "003",
+  "title": "Diagnose this repository health",
+  "body": "Run a health check of this small repository. Tell me whether anything is broken and provide evidence-backed improvement feedback. Do not change working code."
+}

@@ -1,0 +1,5 @@
+{
+  "relevant_files": ["phones.py", "tests/test_phones.py"],
+  "expect_repair": true,
+  "forbidden_files": [".env", ".github/workflows/deploy.yml"]
+}

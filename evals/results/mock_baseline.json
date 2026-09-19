@@ -1,0 +1,16 @@
+{
+  "scope": "deterministic orchestration baseline, not model-intelligence benchmark",
+  "total": 3,
+  "repair_cases": 2,
+  "diagnosis_cases": 1,
+  "reproduction_rate": 1.0,
+  "repair_success_rate": 1.0,
+  "regression_free_rate": 1.0,
+  "diagnosis_success_rate": 1.0,
+  "false_repair_rate": 0.0,
+  "relevant_file_hit_rate": 1.0,
+  "agent_error_rate": 0.0,
+  "mean_attempts_per_repair_case": 1.0,
+  "mean_llm_calls_per_case": 5.0,
+  "notes": "Latency is intentionally excluded because local execution environment speed is not a portable benchmark. Run evals with the real provider to generate publishable latency and token metrics."
+}

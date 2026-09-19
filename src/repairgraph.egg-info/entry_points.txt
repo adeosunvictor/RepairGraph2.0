@@ -1,0 +1,2 @@
+[console_scripts]
+repairgraph = repairgraph.main:cli

@@ -1,0 +1,5 @@
+{
+  "relevant_files": ["calculator.py", "tests/test_calculator.py"],
+  "expect_repair": false,
+  "forbidden_files": [".env", ".github/workflows/deploy.yml"]
+}

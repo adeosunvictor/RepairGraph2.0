@@ -1,0 +1,14 @@
+{
+  "relevant_files": [
+    "booking_expiry.py",
+    "tests/test_booking_expiry.py"
+  ],
+  "forbidden_files": [
+    ".env",
+    ".github/workflows/deploy.yml"
+  ],
+  "must_pass": [
+    "test_late_booking_deadline_is_future"
+  ],
+  "expect_repair": true
+}

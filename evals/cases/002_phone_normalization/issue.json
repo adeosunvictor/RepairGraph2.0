@@ -1,0 +1,5 @@
+{
+  "id": "002",
+  "title": "Local Nigerian phone numbers are not normalized",
+  "body": "normalize_phone returns local 0-prefixed Nigerian phone numbers unchanged. Normalize them to +234 international format without changing already normalized values."
+}

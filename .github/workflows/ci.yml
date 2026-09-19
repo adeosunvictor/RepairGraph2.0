@@ -1,0 +1,26 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -e '.[dev,security]'
+      - name: Ruff
+        run: ruff check src tests evals
+      - name: Tests
+        run: pytest --cov=repairgraph --cov-report=term-missing
+      - name: Bandit
+        run: bandit -q -r src/repairgraph
+      - name: Dependency audit
+        run: pip-audit
